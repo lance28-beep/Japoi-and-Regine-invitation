@@ -103,8 +103,8 @@ export const metadata: Metadata = {
       "@context": "https://schema.org",
       "@type": "Event",
       name: "Jay-R & Jennifer Wedding",
-      startDate: "2026-01-24T09:30:00+08:00",
-      endDate: "2026-01-24T11:00:00+08:00",
+      startDate: "2026-01-24T09:00:00+08:00",
+      endDate: "2026-01-24T12:00:00+08:00",
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
       location: [

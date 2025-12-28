@@ -13,7 +13,7 @@ const faqItems: FAQItem[] = [
   {
     question: "When and where is the wedding?",
     answer:
-      "The wedding ceremony will be held on Saturday, January 24, 2026, at 9:30 AM at the Diocesan Shrine & Parish of Our Lady of the Abandoned, #3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City.\n\nThe reception will follow at 11:00 AM at The Grand Cobo Events Place, #3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City.",
+      "The wedding ceremony will be held on Saturday, January 24, 2026, at 9:00 AM at the Diocesan Shrine & Parish of Our Lady of the Abandoned, #3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City.\n\nThe reception will follow at 12:00 NN at The Grand Cobo Events Place, #3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City.",
   },
   {
     question: "What is the dress code?",

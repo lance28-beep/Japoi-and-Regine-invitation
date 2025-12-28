@@ -7,7 +7,7 @@ export const siteConfig = {
   },
   wedding: {
     date: "January 24, 2026",
-    time: "9:30 AM",
+    time: "9:00 AM",
     venue: "Diocesan Shrine & Parish of Our Lady of the Abandoned",
     tagline: "are getting married!",
     theme: "Elegant Wedding ✨",
@@ -32,7 +32,7 @@ export const siteConfig = {
     address: "#3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City",
     date: "January 24, 2026",
     day: "Saturday",
-    time: "9:30 AM",
+    time: "9:00 AM",
     entourageTime: "8:30 AM",
     guestsTime: "9:00 AM",
   },
@@ -41,7 +41,7 @@ export const siteConfig = {
     venue: "The Grand Cobo Events Place",
     address: "#3 Mt. Kennedy St., Mountainview Village, San Roque, Marikina City",
     date: "January 24, 2026",
-    time: "11:00 AM",
+    time: "12:00 NN",
   },
   dressCode: {
     theme: "Elegant Wedding ✨",
