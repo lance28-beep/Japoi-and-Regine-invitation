@@ -78,9 +78,6 @@ export function Hero() {
               <p className="text-3xl sm:text-4xl md:text-[3rem] leading-none font-[family-name:var(--font-crimson)] tracking-[0.2em] text-zinc-50 uppercase">
                 Japoi
               </p>
-              <p className="text-2xl sm:text-3xl md:text-[2.5rem] font-[family-name:var(--font-chicanos)] text-zinc-300 leading-tight">
-                Abriam
-              </p>
             </div>
 
             {/* AND */}
@@ -93,9 +90,6 @@ export function Hero() {
               <p className="text-3xl sm:text-4xl md:text-[3rem] leading-none font-[family-name:var(--font-crimson)] tracking-[0.2em] text-zinc-50 uppercase">
                 Regine
               </p>
-              <p className="text-2xl sm:text-3xl md:text-[2.5rem] font-[family-name:var(--font-chicanos)] text-zinc-300 leading-tight">
-                Laguitao
-              </p>
             </div>
           </div>
 
@@ -103,39 +97,6 @@ export function Hero() {
           <p className="text-[10px] sm:text-xs md:text-sm font-[family-name:var(--font-crimson)] tracking-[0.32em] text-zinc-400 uppercase mb-6 sm:mb-7">
             warmly invite you to celebrate their marriage
           </p>
-
-          {/* Fine divider before date section */}
-          <div className="mb-6 sm:mb-7 md:mb-8 flex justify-center">
-            <div className="h-px w-24 sm:w-32 md:w-40 bg-gradient-to-r from-transparent via-zinc-600 to-transparent" />
-          </div>
-
-          {/* Date + time block */}
-          <div className="mb-7 sm:mb-9 md:mb-10">
-            {/* Month */}
-            <p className="text-[11px] sm:text-xs md:text-sm font-[family-name:var(--font-crimson)] tracking-[0.38em] text-zinc-400 uppercase mb-4 sm:mb-5">
-              March
-            </p>
-
-            {/* Day row: weekday / day / time */}
-            <div className="flex items-center justify-center gap-6 sm:gap-10 md:gap-14 mb-3 sm:mb-4">
-              <p className="text-[10px] sm:text-xs md:text-sm font-[family-name:var(--font-crimson)] tracking-[0.3em] text-zinc-500 uppercase">
-                Sunday
-              </p>
-
-              <p className="text-4xl sm:text-5xl md:text-[3.25rem] font-[family-name:var(--font-crimson)] text-zinc-50 leading-none">
-                15
-              </p>
-
-              <p className="text-[10px] sm:text-xs md:text-sm font-[family-name:var(--font-crimson)] tracking-[0.3em] text-zinc-500 uppercase">
-                At 4 PM
-              </p>
-            </div>
-
-            {/* Year */}
-            <p className="text-xs sm:text-sm md:text-base font-[family-name:var(--font-crimson)] tracking-[0.3em] text-zinc-400 uppercase">
-              2026
-            </p>
-          </div>
 
           {/* Fine divider before invitation message */}
           <div className="mt-6 sm:mt-7 md:mt-8 mb-6 sm:mb-7 flex justify-center">

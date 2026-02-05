@@ -217,9 +217,7 @@ export function Details() {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-[family-name:var(--font-crimson)] font-normal text-zinc-100 mb-3 sm:mb-4 uppercase tracking-[0.12em]">
             Attire Guidelines
           </h3>
-          <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-zinc-400 font-light">
-            Please dress according to the guidelines below
-          </p>
+      
         </div>
 
         {/* Attire Image - white container */}
@@ -227,10 +225,10 @@ export function Details() {
           <div className="w-full max-w-2xl rounded-xl sm:rounded-2xl overflow-hidden bg-white p-4 sm:p-5 md:p-6 shadow-lg border border-white/80">
             <div className="relative w-full aspect-[4/3] sm:aspect-[3/2] rounded-lg overflow-hidden bg-white">
               <Image
-                src="/Details/Attire.png"
-                alt="Attire guidelines - elegant black dress code"
+                src="/Details/image1.png"
+                alt="Attire guidelines"
                 fill
-                className="object-contain"
+                className="object-cover"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 672px"
               />
             </div>
@@ -259,9 +257,7 @@ export function Details() {
               <div className="absolute inset-0 border border-white/10 rounded-xl sm:rounded-2xl" />
               
               <div className="relative z-10">
-                <h4 className="text-lg sm:text-xl md:text-2xl font-[family-name:var(--font-crimson)] font-semibold text-zinc-200 mb-6 sm:mb-7 md:mb-8 uppercase tracking-[0.12em] text-center">
-                  Guest Attire
-                </h4>
+           
                 
                 {/* Guest Dress Code Text */}
                 <div className="space-y-6 sm:space-y-7 md:space-y-8 mb-7 sm:mb-8 md:mb-10">
@@ -290,73 +286,22 @@ export function Details() {
                   <div className="h-px w-12 sm:w-16 md:w-20 bg-zinc-500/40" />
                 </div>
                 
-                {/* Color Palette - Elegant Black */}
-                <div className="text-center bg-zinc-900/50 rounded-xl p-5 sm:p-6 md:p-7 border border-white/10">
-                  <p className="text-xs sm:text-sm md:text-base font-[family-name:var(--font-crimson)] font-semibold text-zinc-300 uppercase tracking-wider mb-4 sm:mb-5">
-                    Color Palette — Elegant Black Attire
-                  </p>
-                  <div className="flex justify-center gap-3 sm:gap-4 flex-wrap">
-                    <div className="flex flex-col items-center gap-2 sm:gap-2.5">
-                      <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full shadow-lg border-2 border-white/20 bg-[#0a0a0a] hover:scale-110 hover:shadow-xl transition-all duration-300 ring-2 ring-white/20" />
-                      <span className="text-xs sm:text-sm font-[family-name:var(--font-crimson)] font-medium text-zinc-400">Black</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2 sm:gap-2.5">
-                      <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full shadow-lg border-2 border-white/20 bg-[#262626] hover:scale-110 hover:shadow-xl transition-all duration-300 ring-2 ring-[#262626]/40" />
-                      <span className="text-xs sm:text-sm font-[family-name:var(--font-crimson)] font-medium text-zinc-400">Charcoal</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2 sm:gap-2.5">
-                      <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full shadow-lg border-2 border-white/20 bg-[#404040] hover:scale-110 hover:shadow-xl transition-all duration-300 ring-2 ring-[#404040]/40" />
-                      <span className="text-xs sm:text-sm font-[family-name:var(--font-crimson)] font-medium text-zinc-400">Slate</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2 sm:gap-2.5">
-                      <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full shadow-lg border-2 border-white/20 bg-[#1e293b] hover:scale-110 hover:shadow-xl transition-all duration-300 ring-2 ring-[#1e293b]/40" />
-                      <span className="text-xs sm:text-sm font-[family-name:var(--font-crimson)] font-medium text-zinc-400">Gunmetal</span>
-                    </div>
+                {/* Color Palette Image */}
+                <div className="text-center bg-zinc-900/50 rounded-xl p-0 border border-white/10 overflow-hidden">
+                  <div className="relative w-full h-full min-h-[220px] sm:min-h-[260px] md:min-h-[300px]">
+                    <Image
+                      src="/Details/image2.png"
+                      alt="Color palette and attire guidelines"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 672px"
+                    />
                   </div>
-                  <p className="mt-5 text-xs sm:text-sm md:text-base font-[family-name:var(--font-crimson)] text-zinc-400 leading-relaxed">
-                    We kindly request elegant black or formal dark attire. Please avoid printed outfits.
-                  </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Principal Sponsors Attire */}
-          <div className="relative group">
-            <div 
-              className="relative rounded-xl sm:rounded-2xl p-6 sm:p-7 md:p-9 transition-all duration-300 overflow-hidden"
-              style={{
-                background: 'linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #050505 100%)',
-                boxShadow: '0 0 0 1px rgba(0,0,0,0.5), 0 8px 32px rgba(0,0,0,0.6), 0 30px 90px rgba(0,0,0,0.95), inset 0 1px 0 rgba(255,255,255,0.05)',
-              }}
-            >
-              {/* Gradient overlays */}
-              <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a0a0a] to-[#050505]" />
-              <div 
-                className="absolute inset-0 opacity-60"
-                style={{
-                  background: 'radial-gradient(circle at center, rgba(255,255,255,0.02) 0%, transparent 70%)',
-                }}
-              />
-              <div className="absolute inset-0 border border-white/10 rounded-xl sm:rounded-2xl" />
-              
-              <div className="relative z-10">
-                <h4 className="text-lg sm:text-xl md:text-2xl font-[family-name:var(--font-crimson)] font-semibold text-zinc-200 mb-6 sm:mb-7 md:mb-8 uppercase tracking-[0.12em] text-center">
-                  Principal Sponsors' Attire
-                </h4>
-                
-                {/* Sponsors Dress Code Text */}
-                <div className="text-center">
-                  <p className="text-base sm:text-lg md:text-xl font-[family-name:var(--font-crimson)] text-zinc-200 leading-relaxed mb-4">
-                    <span className="font-semibold">Gentlemen:</span> Black slacks or formal black wear—black suit, pants and tie
-                  </p>
-                  <p className="text-base sm:text-lg md:text-xl font-[family-name:var(--font-crimson)] text-zinc-200 leading-relaxed">
-                    <span className="font-semibold">Ladies:</span> Elegant black (silky or glittery black are welcome)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Important Reminders Section */}
@@ -380,24 +325,19 @@ export function Details() {
             
             <div className="relative z-10">
               <h4 className="text-lg sm:text-xl md:text-2xl font-[family-name:var(--font-crimson)] font-semibold text-zinc-200 mb-6 sm:mb-7 md:mb-8 uppercase tracking-[0.12em] text-center">
-                Important Reminders
+              Gentle Reminder
               </h4>
               
               {/* Reminders List */}
               <div className="space-y-5 sm:space-y-6 md:space-y-7">
                 {/* Celebration Details */}
-                <div className="bg-zinc-900/50 rounded-xl p-5 sm:p-6 md:p-7 border border-white/10">
-                  <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-zinc-200 leading-relaxed">
-                    We kindly request that the celebration remain intimate, so we can share this special day with our closest loved ones.
-                  </p>
-                </div>
 
                 {/* Invitation Only - icon + message */}
                 <div className="bg-zinc-900/50 rounded-xl p-5 sm:p-6 md:p-7 border border-white/10">
                   <div className="flex items-start gap-3 sm:gap-4">
                     <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-zinc-300 mt-0.5 flex-shrink-0" aria-hidden />
                     <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-zinc-200 leading-relaxed">
-                      As we celebrate this moment with our closest loved ones, we kindly ask that attendance be limited to those named on the invitation.
+                    We kindly request that the celebration remain intimate, so we can share this special day with our closest loved ones.
                     </p>
                   </div>
                 </div>
@@ -419,13 +359,6 @@ export function Details() {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Thank You Note */}
-              <div className="mt-7 sm:mt-8 md:mt-9 pt-6 sm:pt-7 md:pt-8 border-t border-white/10">
-                <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-zinc-300 text-center leading-relaxed italic">
-                  Thank you for your understanding and cooperation. We look forward to celebrating with you!
-                </p>
               </div>
             </div>
           </div>

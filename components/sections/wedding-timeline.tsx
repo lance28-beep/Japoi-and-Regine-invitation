@@ -126,9 +126,7 @@ export function WeddingTimeline() {
 
               {/* Thank you message - quote style */}
               <div className="relative rounded-lg sm:rounded-xl border border-[rgba(255,255,255,0.08)] bg-black/40 p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12">
-                <h4 className="text-base sm:text-lg md:text-xl font-[family-name:var(--font-crimson)] font-semibold text-zinc-200 mb-4 sm:mb-5 md:mb-6 text-center uppercase tracking-[0.12em]">
-                  Thank you message
-                </h4>
+
                 <blockquote className="relative max-w-md mx-auto text-center">
                   <span className="absolute -left-1 -top-2 sm:-top-3 text-4xl sm:text-5xl md:text-6xl font-[family-name:var(--font-ephesis)] text-zinc-500/60 leading-none select-none" aria-hidden>&ldquo;</span>
                   <div className="space-y-0.5 sm:space-y-1 font-[family-name:var(--font-crimson)] font-light text-zinc-100 text-sm sm:text-base md:text-lg leading-snug tracking-wide">

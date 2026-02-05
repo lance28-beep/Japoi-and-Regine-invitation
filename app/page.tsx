@@ -8,6 +8,7 @@ import { Hero as MainHero } from "@/components/sections/hero"
 import { LoadingScreen } from "@/components/loader/LoadingScreen"
 import { Hero as InvitationHero } from "@/components/loader/Hero"
 import { Countdown } from "@/components/sections/countdown"
+import { LoveStory } from "@/components/sections/love-story"
 import { Messages } from "@/components/sections/messages"
 import { Details } from "@/components/sections/details"
 import { WeddingTimeline } from "@/components/sections/wedding-timeline"
@@ -19,6 +20,7 @@ import { FAQ } from "@/components/sections/faq"
 import { SnapShare } from "@/components/sections/snap-share"
 import { Footer } from "@/components/sections/footer"
 import BackgroundMusic from "@/components/background-music"
+
 
 enum AppState {
   LOADING = "LOADING",
@@ -64,16 +66,17 @@ export default function Home() {
               {appState === AppState.DETAILS && <Navbar />}
               <MainHero />
               <Countdown />
+              <LoveStory />
               <Details />
               <WeddingTimeline />
               <Entourage />
               <PrincipalSponsors />
               <GuestList />
               <BookOfGuests />
-              <Registry />
+              {/* <Registry /> */}
               <FAQ />
               <Messages />
-              <SnapShare />
+              {/* <SnapShare /> */}
               <Footer />
             </div>
           </div>
