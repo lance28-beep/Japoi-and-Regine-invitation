@@ -74,7 +74,7 @@ export default function Home() {
               <GuestList />
               <BookOfGuests />
               {/* <Registry /> */}
-              <FAQ />
+              {/* <FAQ /> */}
               <Messages />
               {/* <SnapShare /> */}
               <Footer />
